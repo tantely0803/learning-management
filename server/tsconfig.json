@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    // Dossier source et de sortie
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // Cible et modules
+    "target": "ES2020",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    // Typage
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // JSON et autres
+    "resolveJsonModule": true,
+
+    // Débogage
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    "types": ["node"] //
+  },
+  "include": ["src/**/*", "src/data/**/*.json"],
+  "exclude": ["node_modules", "dist"]
+}
