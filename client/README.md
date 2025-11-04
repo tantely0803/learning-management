@@ -14,30 +14,30 @@ pnpm dev
 bun dev
 ```
 
-npm i lucide-react uuid dotenv date-fns framer-motion react-hook-form zod @hookform/resolvers @hello-pangea/dnd --legacy-peer-deps
-npm i -D @types/node @types/uuid --legacy-peer-deps
-npm i tailwindcss-animate --legacy-peer-deps
-npx shadcn@latest init -d
-npm config set legacy-peer-deps true //ignore the conflit 
-npx  shadcn@latest add accordion avatar button card dialog form input label navigation-menu popover progress select separator sheet sidebar skeleton switch table tabs textarea toggle tooltip
-npm i react-redux @reduxjs/toolkit --legacy-peer-deps
+- npm i lucide-react uuid dotenv date-fns framer-motion react-hook-form zod @hookform/resolvers @hello-pangea/dnd --legacy-peer-deps
+- npm i -D @types/node @types/uuid --legacy-peer-deps
+- npm i tailwindcss-animate --legacy-peer-deps
+- npx shadcn@latest init -d
+- npm config set legacy-peer-deps true //ignore the conflit 
+- npx  shadcn@latest add accordion avatar button card dialog form input label navigation-menu popover progress select separator sheet sidebar skeleton switch table tabs textarea toggle tooltip
+- npm i react-redux @reduxjs/toolkit --legacy-peer-deps
 
-dynamoDb locally and persist data
-java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb -dbPath D:\www\code-learning-management\run
+- dynamoDb locally and persist data
+- java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb -dbPath D:\www\code-learning-management\run
 
 AWS Access Key ID: "fakeMyKeyId" 
 AWS Secret Access Key: "fakeSecretAccessKey"
 Default Region Name: "fakeRegion"
 
-aws dynamodb list-tables --endpoint-url http://localhost:8000
+- aws dynamodb list-tables --endpoint-url http://localhost:8000
 
-npm install tailwind-merge
+- npm install tailwind-merge
 
-npm i @clerk/nextjs @clerk/clerk-js @clerk/themes next-themes --legacy-peer-deps
-npm i filepond react-filepond filepond-plugin-image-preview filepond-plugin-image-exif-orientation --legacy-peer-deps
-npm i sonner 
-npm i @stripe/react-stripe-js @stripe/stripe-js --legacy-peer-deps
-npm i react-player
+- npm i @clerk/nextjs @clerk/clerk-js @clerk/themes next-themes --legacy-peer-deps
+- npm i filepond react-filepond filepond-plugin-image-preview filepond-plugin-image-exif-orientation --legacy-peer-deps
+- npm i sonner 
+- npm i @stripe/react-stripe-js @stripe/stripe-js --legacy-peer-deps
+- npm i react-player
 
 
  
